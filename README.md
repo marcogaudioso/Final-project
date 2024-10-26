@@ -5,11 +5,11 @@ The company Lending Club provided a dataset including application loan transacti
 The project is divided into different section:
 
 # Data cleaning
-Actions have been performed to prepare the datset for the next steps and anlysis:
+Actions have been performed to prepare the datset for the next steps and analysis:
 
 Sub sections:
 - Initial dropping of columns not needed
-- Text column treatment
+- Text & Date column treatment
 - Null values treatment & Label encoder
 - Duplicates treatment
 
@@ -26,7 +26,7 @@ Sub sections:
 
 # Machine learning models
 
-After all the preparatory steps, different models have been prepared and tested to predict Grade loan.
+After all the preparatory steps, different models have been built and tested to predict Grade loan.
 
 Sub sections:
 - Logistic regression
@@ -36,5 +36,7 @@ Sub sections:
 - Features selection
 - Neural network
 
-The initial Random forest model has been tested vs the Logistic regression. After that, different steps have been performed to improve the performance.
-A final neural network model has been tested vs the Random forest with feature selection model that recorded the best performance in predicting the loan Grade.
+The initial Random forest model has been tested vs the Logistic regression. After that, different steps have been performed to improve the performance of the Random Forest.
+A final neural network model has been tested as well.
+
+The best performance recorded has been with the Random Forest tuned with Features selection.
